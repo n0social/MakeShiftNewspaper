@@ -1,0 +1,138 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navBar {
+    background-color: black;
+    height:45px;
+    border:1px solid black;
+    
+}
+
+a {
+    color:white;
+    font-size: 30px;
+    border:1px solid black;
+    font-family: "Poppins", sans-serif;
+}
+
+.navBar a {
+    
+    float:right;
+    padding-right: 15px;
+    border:1 solid black;
+    padding-top: 5px;
+}
+
+.navBar img {
+    width:50px;
+    height:50px;
+    float:left;
+    padding-left:5px;
+}
+
+nav{
+    display:flex;
+    justify-content:end;
+    align-items: center;
+ }
+
+ 
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    font-family:'Oswald', sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:30px;
+  }
+
+  .bodyContainer {
+    background-color: #f9f7f1;
+    font-family: 'PT Serif', serif;
+    color: #404040;
+    padding: 0 24px;
+  }
+
+  h2 {
+    font: 3rem/.95 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom:16px;
+  }
+
+  .author {
+    margin-bottom:10px;
+  }
+
+  h3 {
+    font: 2rem/.95 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top:12px;
+  }
+
+  time {
+    font: 700 1.5rem 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+   
+    border-top: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+    padding: 12px 0;
+   
+    display: block;
+  }
+  time sup {
+    font-size: .875rem;
+    font-weight: normal;
+  }
+
+  blockquote {
+    font: 1.8rem/1.25 'Oswald', sans-serif;
+    margin: 1.5rem 2rem;
+  }
+  blockquote::before { content: open-quote; }
+  blockquote::after { content: close-quote; }
+
+  @counter-style emoji {
+    symbols: "\2615";
+    system:cyclic;
+    suffix: " ";
+  }
+
+  article ul {
+    list-style: emoji;
+  }
+@media(min-width:955px){
+  article {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 955px) {
+    article {
+      column-count: 3;
+      column-rule: 2px solid #333333;
+      column-gap: 42px;
+      margin-top: 36px;
+    }
+  }
+  
+  ul{
+    padding-left:25px;
+    padding-bottom:10px;
+  }
+
+  .bridge {
+    width:250px;
+    height:150px;
+    padding-left: 5px;
+  }
+
+  figcaption {
+    text-align: center;
+  }
